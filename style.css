@@ -4,3 +4,37 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+/* navbar styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 1180px;
+  height: 100px;
+}
+
+/* logo */
+nav h1 {
+  color: #0d1321;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* resume button */
+
+nav button {
+  background-color: transparent;
+  padding: 15px 30px;
+  font-weight: 500;
+  border: 2px solid #0d1321;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+nav button:hover {
+  background: #0d1321;
+  color: white;
+}
