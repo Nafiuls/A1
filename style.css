@@ -4,6 +4,13 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  overflow: hidden;
+}
 
 /* navbar styles */
 nav {
@@ -35,6 +42,117 @@ nav button {
 }
 
 nav button:hover {
+  background: #0d1321;
+  color: white;
+}
+
+.banner {
+  background-image: url('/assets/Hero-bg.png');
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 900px;
+  margin: auto;
+}
+
+.content h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.content img {
+  width: 250px;
+  margin: auto;
+  display: block;
+}
+
+.content p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.content a button {
+  border: none;
+  background-color: #0d1321;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* main styles */
+
+main {
+  width: 1280px;
+  margin: auto;
+  background-color: #0d132105;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-title p {
+  margin-top: 20px;
+  width: 900px;
+  margin: 30px auto;
+}
+
+.card-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.card-content {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-content h1 {
+  line-height: 40px;
+}
+
+.card-btn button {
+  background-color: transparent;
+  padding: 10px 30px;
+  font-weight: 500;
+  border: 2px solid #0d1321;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.card-btn button:hover {
   background: #0d1321;
   color: white;
 }
