@@ -100,13 +100,11 @@ nav button:hover {
 main {
   width: 1280px;
   margin: auto;
-  background-color: #0d132105;
-  border-radius: 10px;
-  padding: 30px;
 }
 
 .section-title {
   text-align: center;
+  margin-top: 50px;
 }
 
 .section-title p {
@@ -116,10 +114,13 @@ main {
 }
 
 .card-container {
+  border-radius: 10px;
+  padding: 30px;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: #0d132105;
 }
 
 .card {
@@ -155,4 +156,17 @@ main {
 .card-btn button:hover {
   background: #0d1321;
   color: white;
+}
+
+.video {
+  padding: 30px;
+  border: 1px solid #0d1321;
+  border-radius: 10px;
+  /* height: 600px; */
+}
+
+iframe {
+  border-radius: 10px;
+  margin-top: 100px;
+  height: 600px;
 }
